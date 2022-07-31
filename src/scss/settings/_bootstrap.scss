@@ -1,0 +1,59 @@
+$font-family-sans-serif: $t-font-family;
+$line-height-base: $t-line-height-base;
+$enable-rounded: $t-enable-rounded;
+
+$btn-padding-y: $t-btn-padding-y;
+$btn-padding-x: $t-btn-padding-x;
+$btn-font-size: $t-btn-font-size;
+$btn-line-height: $t-btn-line-height;
+$btn-border-width: $t-btn-border-width;
+
+$h2-font-size: $t-h2-font-size;
+$h3-font-size: $t-h3-font-size;
+$h4-font-size: $t-h4-font-size;
+$h5-font-size: $t-h5-font-size;
+$headings-font-weight: $t-headings-font-weight;
+$form-group-margin-bottom: $t-form-group-margin-bottom;
+
+$body-color: $t_color-font-default;
+$navbar-light-color: $t-navbar-light-color;
+$blue: $t-primary-color;
+
+$light: $t-color-light;
+$dark: $t-color-dark;
+$navbar-light-active-color: $t-navbar-light-active-color;
+
+$input-bg: $t-input-bg;
+$input-color: $t-input-color;
+$input-border-color: $t-input-border-color;
+$input-group-addon-bg: $t-input-group-addon-bg;
+$input-focus-box-shadow: $t-input-focus-box-shadow;
+$input-font-size: $t-input-font-size;
+$input-line-height: $t-input-line-height;
+//colors
+
+
+//$indigo:  #6610f2 !default;
+//$purple:  #6f42c1 !default;
+//$pink:    #e83e8c !default;
+//$red:     #dc3545 !default;
+//$orange:  #fd7e14 !default;
+//$yellow:  #ffc107 !default;
+//$green:   #42b35d; //#28a745 !default;
+//$teal:    #20c997 !default;
+//$cyan:    #17a2b8 !default;
+
+
+$gray-100: #f8f9fa !default;
+$gray-200: #e9ecef !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-700: #495057 !default;
+$gray-800: #343a40 !default;
+
+$secondary: $gray-200;
+
+$modal-md: 600px;
+
+$yiq-text-dark: $gray-700;

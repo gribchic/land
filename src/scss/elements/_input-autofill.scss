@@ -1,0 +1,10 @@
+input, textarea, select {
+    &:-webkit-autofill {
+        &, &:hover, &:focus {
+            -webkit-text-fill-color: $t-color-white;
+            -webkit-box-shadow: 0 0 0 1000px transparent inset;
+            transition: background-color 5000s ease-in-out 0s;
+            caret-color: $t-color-white;
+        }
+    }
+}

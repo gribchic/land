@@ -1,0 +1,26 @@
+//$gray-500 is bootstrap's color
+//the color can be rewritten in place;
+//@import "src/scss/lib/bootstrap/bootstrap-tool";
+@import "../../tools";
+$icon-color: $gray-500 !default;
+$icon-color-rgb: 'rgb(#{red($icon-color)}, #{green($icon-color)}, #{blue($icon-color)})';
+//$icon-color
+%clear-input-button {
+  $size: 20px;
+  //ToDo: color variable
+  position: absolute;
+  right: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+  border: 0;
+  background: transparent;
+  height: $size;
+  width: $size;
+  padding: 0;
+  background: {
+    image: url("data:image/svg+xml;charset=utf-8,<svg data-v-87329d56='' viewBox='0 0 16 16' width='1em' height='1em' focusable='false' role='img' alt='icon' xmlns='http://www.w3.org/2000/svg' fill='#{$icon-color-rgb}' class='bi-x b-icon bi'><g data-v-87329d56=''><path fill-rule='evenodd' d='M11.854 4.146a.5.5 0 010 .708l-7 7a.5.5 0 01-.708-.708l7-7a.5.5 0 01.708 0z' clip-rule='evenodd'></path><path fill-rule='evenodd' d='M4.146 4.146a.5.5 0 000 .708l7 7a.5.5 0 00.708-.708l-7-7a.5.5 0 00-.708 0z' clip-rule='evenodd'></path></g></svg>");
+    repeat: no-repeat;
+    size: cover;
+    position: 50% 50%;
+  };
+}

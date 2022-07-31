@@ -1,0 +1,11 @@
+@import "clear-input-button";
+@import "../../tools";
+
+.btn {
+    text-transform: uppercase;
+    font-weight: 600;
+
+    &.disabled, &[disabled] {
+        cursor: not-allowed;
+    }
+}

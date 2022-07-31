@@ -1,0 +1,26 @@
+.badge {
+    &.pending {
+        background-color: $primary;
+        color: $white;
+    }
+
+    &.submitted {
+        background-color: $primary;
+        color: $white;
+    }
+
+    &.active {
+        background-color: $success;
+        color: $white;
+    }
+
+    &.blocked {
+        background-color: $gray-600;
+        color: $white;
+    }
+
+    &.inactive {
+        background-color: $gray-600;
+        color: $white;
+    }
+}

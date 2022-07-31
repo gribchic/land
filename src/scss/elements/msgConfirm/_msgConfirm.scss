@@ -1,0 +1,72 @@
+@import "../../tools";
+
+.modal-body {
+    &.msg-confirm {
+        border-top: {
+            width: 4px;
+            style: solid;
+        }
+
+        @include border-top-radius($modal-content-inner-border-radius);
+
+        &.info {
+            border-top-color: $info;
+
+            .icon-wrapper {
+                color: $info;
+            }
+        }
+
+        &.warning {
+            border-top-color: $warning;
+
+            .icon-wrapper {
+                color: $warning;
+            }
+        }
+
+        &.danger {
+            border-top-color: $danger;
+
+            .icon-wrapper {
+                color: $danger;
+            }
+        }
+
+        &.success {
+            border-top-color: $success;
+
+            .icon-wrapper {
+                color: $success;
+            }
+        }
+
+        &.primary {
+            border-top-color: $primary;
+
+            .icon-wrapper {
+                color: $primary;
+            }
+        }
+
+        //Font Awesome stiles don't loaded if we don't use component
+        .svg-inline--fa {
+            display: inline-block;
+            font-size: inherit;
+            height: 1em;
+            overflow: visible;
+            vertical-align: -.125em;
+        }
+
+        .fa-3x {
+            font-size: 3em;
+        }
+    }
+
+}
+
+.modal-footer {
+    .btn {
+        padding: 10px 15px;
+    }
+}

@@ -1,0 +1,26 @@
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+    color: $t-headers-color;
+}
+
+h1, h2, h3, h5, h6,
+.h1, .h2, .h3, .h5, .h6 {
+    text-transform: uppercase;
+}
+
+h2, .h2 {
+    line-height: 27px;
+    margin: 0;
+}
+
+h4, .h4 {
+    line-height: 18px;
+}
+
+.font-weight-semibold {
+    font-weight: 600;
+}
+
+.text-light-2 {
+    color: $t-color-light-2 !important;
+}

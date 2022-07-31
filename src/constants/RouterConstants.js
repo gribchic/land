@@ -1,0 +1,15 @@
+const RouterConstants = {
+    HOME: "HOME",
+    ABOUT: "ABOUT",
+    CONTACTS: "CONTACTS",
+    PARTNERS: "PARTNERS",
+    TERMS_OF_USE: "TERMS_OF_USE",
+    FAQ: "FAQ",
+    SERVICE_CBSV: "SERVICE_CBSV",
+    SERVICE_ECBSV: "SERVICE_ECBSV",
+    SERVICE_SSNT: "SERVICE_SSNT",
+    SERVICE_EVERIFY: "SERVICE_EVERIFY",
+    SERVICE_ITRV: "SERVICE_ITRV"
+};
+
+export default RouterConstants;
