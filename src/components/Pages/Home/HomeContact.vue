@@ -43,6 +43,7 @@
     @import "src/scss/tools/index";
 
     .section-contact {
+      overflow: hidden;
         &:before {
             display: block;
             position: absolute;

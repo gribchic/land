@@ -18,19 +18,19 @@
                         <span
                             class="font-weight-semibold text-dark d-flex justify-content-between text-center text-lg-left">Toll-Free<span
                             class="mr-1">:</span></span>
-                        <adaptive-phone-number css-class="text-reset" phone-number="8559383743"/>
+                        <adaptive-phone-number css-class="text-reset" phone-number="1234567890"/>
                     </li>
                     <li class="d-flex justify-content-center justify-content-lg-start">
                         <span
                             class="font-weight-semibold text-dark d-flex justify-content-between text-center text-lg-left">Telephone <span
                             class="mr-1">:</span></span>
-                        <adaptive-phone-number css-class="text-reset" phone-number="6262540000"/>
+                        <adaptive-phone-number css-class="text-reset" phone-number="1234567890"/>
                     </li>
                     <li class="d-flex justify-content-center justify-content-lg-start">
                         <span
                             class="font-weight-semibold text-dark d-flex justify-content-between text-center text-lg-left">Fax <span
                             class="mr-1">:</span></span>
-                        <adaptive-phone-number css-class="text-reset" phone-number="6266283817"/>
+                        <adaptive-phone-number css-class="text-reset" phone-number="1234567890"/>
                     </li>
                 </ul>
             </div>
@@ -52,7 +52,7 @@
                     <li>
                         <font-awesome-icon class="mr-2" :icon="['fab', 'facebook-square']"/>
                         <a
-                            href="https://www.facebook.com/IDValidation"
+                            href="https://www.facebook.com"
                             class="text-reset"
                             target="_blank"
                             title="Facebook">
@@ -62,7 +62,7 @@
                     <li>
                         <font-awesome-icon class="mr-2" :icon="['fab', 'twitter-square']"/>
                         <a
-                            href="https://twitter.com/IDValidation"
+                            href="https://twitter.com"
                             class="text-reset"
                             target="_blank"
                             title="Twitter">
@@ -72,7 +72,7 @@
                     <li>
                         <font-awesome-icon class="mr-2" :icon="['fab', 'youtube-square']"/>
                         <a
-                            href="http://www.youtube.com/user/IDValidation"
+                            href="http://www.youtube.com"
                             class="text-reset"
                             target="_blank"
                             title="Youtube">
@@ -82,7 +82,7 @@
                     <li>
                         <font-awesome-icon class="mr-2" :icon="['fab', 'linkedin']"/>
                         <a
-                            href="https://www.linkedin.com/company/computer-information-development?trk=company_logo"
+                            href="https://www.linkedin.com"
                             class="text-reset"
                             target="_blank"
                             title="Linkedin">
