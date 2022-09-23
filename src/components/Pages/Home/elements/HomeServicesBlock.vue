@@ -96,6 +96,7 @@
     @import "../../../../scss/tools/index";
 
     .text-block {
+        overflow: hidden;
         $py: 50px;
         padding: {
             top: $py;

@@ -299,16 +299,8 @@
                 bodyFormData.append('topic', this.topic);
                 bodyFormData.append('message', this.message);
 
-                axios.post('', bodyFormData, {headers: {'Content-Type': 'multipart/form-data'}})
-                    .then(() => {
-                        this.msgOk('success', 'Your message has sent. Thank you.');
-                        this.clearForm();
-                    })
-                    .catch(() => {
-                        this.msgOk('danger', 'Something went wrong. Try again please.');
-                    }).finally(() => {
-                    this.isClicked = false;
-                });
+                this.sendData(bodyFormData)
+
             },
             clearForm() {
                 this.fullValidationReset();
@@ -319,6 +311,19 @@
                 this.reference = null;
                 this.topic = null;
                 this.message = null;
+            },
+            sendData(data) {
+              axios.post('', data, {headers: {'Content-Type': 'multipart/form-data'}})
+                  .then(() => {
+                    this.msgOk('success', 'Your message has sent. Thank you.');
+                    this.clearForm();
+                  })
+                  .catch(() => {
+                    this.msgOk('danger', 'Something went wrong. Try again please.');
+                  })
+                  .finally(() => {
+                    this.isClicked = false;
+                  });
             }
         },
         validations: {
