@@ -62,7 +62,7 @@
                         <li class="social-icons-facebook">
                             <b-link
                                 class="icon-facebook"
-                                href="https://www.facebook.com/IDValidation"
+                                href="https://www.facebook.com"
                                 target="_blank">
                                 <font-awesome-icon :icon="['fab', 'facebook-f']"/>
                             </b-link>
@@ -70,7 +70,7 @@
                         <li class="social-icons-twitter">
                             <b-link
                                 class="icon-twitter"
-                                href="https://twitter.com/IDValidation"
+                                href="https://twitter.com"
                                 target="_blank">
                                 <font-awesome-icon :icon="['fab', 'twitter']"/>
                             </b-link>
@@ -78,7 +78,7 @@
                         <li class="social-icons-instagram">
                             <b-link
                                 class="icon-youtube"
-                                href="http://www.youtube.com/user/IDValidation"
+                                href="http://www.youtube.com"
                                 target="_blank">
                                 <font-awesome-icon :icon="['fab', 'youtube']"/>
                             </b-link>
@@ -86,7 +86,7 @@
                         <li class="social-icons-instagram">
                             <b-link
                                 class="icon-linkedin"
-                                href="https://www.linkedin.com/company/computer-information-development?trk=company_logo"
+                                href="https://www.linkedin.com"
                                 target="_blank">
                                 <font-awesome-icon :icon="['fab', 'linkedin-in']"/>
                             </b-link>
